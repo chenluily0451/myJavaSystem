@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <title>Title</title>
-    <link rel="stylesheet" href="app/styles/login.css" />
+    <!--<link rel="stylesheet" href="app/styles/login.css" />-->
 </head>
 <body>
 
     <div id="loginWrap">
         <h1 th:text="登录"></h1>
 
-        <form>
+        <form action="/web/login/success" method="post">
             <p>
                 <label>登录名</label>
                 <input type="text" name="username" />
