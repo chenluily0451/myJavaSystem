@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.my.system")
+@ComponentScan("com.my.system.*")
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Override
