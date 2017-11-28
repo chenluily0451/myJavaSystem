@@ -13,11 +13,13 @@ public class RegisterController {
         return "register/register";
     }
 
-    @RequestMapping(value = "/web/register/success")
-    public String loginSuccess(String username, String password) {
-        System.out.println("userName is " + username);
-        System.out.println("password is " + password);
-
-        return "register/registerSuccess";
-    }
+//    @RequestMapping(value = "/web/register/success")
+//    public String loginSuccess(String username, String password, String phone) {
+//        System.out.println("userName is " + username);
+//        System.out.println("password is " + password);
+//        System.out.println("phone is " + phone);
+//
+//
+//        return "register/registerSuccess";
+//    }
 }
