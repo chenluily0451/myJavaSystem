@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8" />
     <title>注册列表</title>
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
     <div layout:fragment="wrapper">
-        <h1>
-            已注册人数
-        </h1>
-        <table>
-            <thead>
-            <tr>
-                <td>
-                    id
-                </td>
-                <td>
-                    用户名
-                </td>
-                <td>
-                    电话号
-                </td>
-            </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <div class="indexWrap">
+            <div class="contentTableWrap">
+                <h2>
+                    已注册人数
+                </h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <td>
+                            id
+                        </td>
+                        <td>
+                            用户名
+                        </td>
+                        <td>
+                            电话号
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <p>
+                    <a href="/">退出</a>
+                </p>
+            </div>
+        </div>
     </div>
     <div layout:fragment="script" th:remove="tag">
         <script type="text/javascript" src="/scripts/list.js"></script>
